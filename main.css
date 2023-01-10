@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Comforter+Brush&family=Fasthand&family=Libre+Baskerville&family=Playfair+Display+SC&family=Righteous&family=Shadows+Into+Light&family=Source+Code+Pro:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Almarai', sans-serif;
+}
+.outer{
+
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background-image: url("https://img.freepik.com/free-vector/magic-portal-mountain-top-alien-planet-surface-futuristic-landscape-background-with-glowing-entrance-rock-starry-sky-fantasy-book-computer-game-scene-cartoon-vector-illustration_107791-4566.jpg?w=740&t=st=1667372606~exp=1667373206~hmac=e3c293e1f8e2827f74285f158a18f17248e5373eeace8636a7f120a6b1d4f617");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.main_header{
+    text-align: center;
+    padding: 50px 10px;
+    color: white;
+}
+.login-wrapper{
+    padding: 20px;
+    width: 450px;
+    height:auto;
+    background-color: rgb(255,255,255,0.6);
+    border-radius: 10px;
+}
+.bottem-outer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px ;
+
+}
+.bottem-outer> h6{
+    color: white;
+    padding: 0 20px;
+}
